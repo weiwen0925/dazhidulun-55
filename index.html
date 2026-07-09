@@ -796,4 +796,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C55P2:END-->
+<!--WY-C55P3:BEGIN-->
+<style id="wy-c55p3-css">
+.c55p3-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c55p3-fabbox.show{display:block;}
+.c55p3-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c55p3-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c55p3-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c55p3-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c55p3-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c55p3-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c55p3-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c55p3-modal.open{display:flex;}
+.c55p3-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c55p3-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c55p3-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c55p3-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c55p3-close:hover{background:#e3d5b8;}
+.c55p3-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c55p3-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c55p3-tbl th,.c55p3-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c55p3-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c55p3-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c55p3-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c55p3-tbl b{color:#8b2500;}
+.c55p3-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c55p3-note b{color:#8b2500;}
+@media(max-width:900px){.c55p3-fabbox{right:14px;}.c55p3-tbl{font-size:11.5px;}.c55p3-card{padding:26px 14px 16px;}}
+</style>
+<div class="c55p3-fabbox" id="c55p3Box"><button class="c55p3-btn" id="c55p3Btn" type="button" aria-label="開啟全景總表"><span class="c55p3-ic">▦</span><span class="c55p3-ls"><span class="c55p3-l1">本品 · 散華品</span><span class="c55p3-l2">理、喻、行與二諦解構</span></span></button></div><div class="c55p3-modal" id="c55p3Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c55p3-card"><button class="c55p3-close" id="c55p3Close" type="button" aria-label="關閉">×</button><h3>卷五十五·第三品（釋散華品第二十九） · 全景總表</h3><p class="sub">卷五十五・第三品｜散華品題三層意涵・喻破立三階段辯證・三重否定・因緣生故無生・三輪體空</p><table class="c55p3-tbl"><caption>一、品題與三階段辯證藍圖（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>散華三層意涵</td><td>事相之華（世俗諦可見的莊嚴供具）＋表法之華（喻因行萬法，引出對本性的叩問）＋無生之華（究其本體，華無生空無所出，即般若所顯實相）</td></tr><tr><td>喻破立三階段</td><td>喻（底層·理的信受與譬喻顯化，法雨化華視覺化般若）→破（支柱·無生法性的辯證階梯，層層解構華乃至萬法本體）→立（頂層·中觀二諦與觀照實踐，畢竟空中重新安立假名）</td></tr><tr><td>核心洞見</td><td>全品是一套嚴密的認知轉換架構：從聽懂「空而不壞有」的信受，經如幻供養的行動，到徹見「因緣生故無生」的實相證成，環環相扣</td></tr></tbody></table><table class="c55p3-tbl"><caption>二、理的信受與譬喻的顯化（喻）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>理→喻→行邏輯鏈</td><td>①理的信受（釋提桓因聽懂空而不壞有）→②譬喻的讚歎（無礙教法視覺化為時雨）→③行的供養（落實為化華具體供養）</td></tr><tr><td>法雨之喻</td><td>小乘法（有量之水·溉灌常苦不足·階梯式次第）對比大乘般若（無礙法雨·普降無不霑洽·始終唯說實相）——空義不壞緣起，雖說空於諸法無所破亦不失果報</td></tr><tr><td>生善滅惡雙重向量</td><td>生善：穀子得雨而生，未發心者發心、已發心者增長；滅惡：惡風塵土熱毒得雨消滅，除滅惡覺觀、三不善毒、邪見惡師</td></tr><tr><td>化華供養的邏輯必然</td><td>須菩提演說諸法空，聽法者皆如化人，欲與如幻之法相應（隨其相故），故以化華（無生之物）供養——以如幻之物供養如幻之境</td></tr><tr><td>意生供養力學</td><td>大福德成就→稱心供養→隨意變化→不從他求，心生所願皆得如意——供養擺脫物質實體性，直接由心識純粹意志顯現</td></tr><tr><td>三輪體空</td><td>能供養者（諸天，幻化之主）＋所供養境（佛法僧，如幻之境）＋供養之物（化華，無生之物）三者皆如幻，於事相修持中當下契入般若空慧</td></tr></tbody></table><table class="c55p3-tbl"><caption>三、無生法性的辯證階梯與中觀二諦安立（破・立）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>三重否定</td><td>非樹生（非物理來源）→非意樹生（非心識來源）→無生（畢竟空）——徹底切斷現象對物理與心識來源的本體依賴</td></tr><tr><td>命名悖論與消解</td><td>須菩提反質「若不生，何以名華？」——無生與命名的語病；消解關鍵在「不生法中無所分別」，是華、是非華二元俱泯，僅為世俗溝通之名</td></tr><tr><td>一法通一切法</td><td>局部（是華不生）→主觀（色受想行識不生）→終極客觀（一切種智不生）同構於無自性——「若一法空，則一切法皆空」，於一法中了了決定知空即引發整個概念網絡的覺醒</td></tr><tr><td>因緣生故無生</td><td>因緣和合生（依賴條件顯現）→無有定性（無獨立自主本體）→無生·畢竟空（從未真正生起絕對實體）——生與無生並非對立，而是同一現象兩面</td></tr><tr><td>假名實相三段論</td><td>局部破（華是空無生）→全局破（五眾一切種智皆空）→歸宿（從因緣生但有假名）；連「如、法性、實際」等最高真理詞彙亦僅是引導眾生而設的假名</td></tr><tr><td>二諦圓融</td><td>名字是俗諦（隨順世間建立因果溝通）、實相是第一義諦（破除執著無彼此無諍）——聖者內在安住第一義諦、外在運作於俗諦，於語言中保持絕對自由</td></tr></tbody></table><p class="c55p3-note">散華品藉「諸天散華供養」這樁看似祥瑞的場景，鋪陳一套從信受到畢竟空的嚴密認知轉換架構：喻（法雨化華視覺化般若）→破（三重否定層層解構萬法自性）→立（因緣生故無生、假名安立、二諦圓融）。<b>藉幻化之相，悟無生之理；安住假名之中，徹見實相無諍</b>——這正是「一朵花開出整個般若」的中觀心法。</p></div></div>
+<script id="wy-c55p3-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c55p3Btn"),BOX=document.getElementById("c55p3Box"),MODAL=document.getElementById("c55p3Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=2;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#wyVideoFab,.wy-vfab,#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c55p3Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C55P3:END-->
 </body></html>
